@@ -1,5 +1,5 @@
 site_name: Documentación guía definitiva de Python
-# site_url: https://james-willett.github.io/mkdocs-material-youtube-tutorial/
+site_url: https://santiagowv.github.io/docs-guia-definitiva-python/
 theme:
   name: material
   features:
