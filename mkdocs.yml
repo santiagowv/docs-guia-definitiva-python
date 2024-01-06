@@ -3,38 +3,47 @@ site_url: https://santiagowv.github.io/docs-guia-definitiva-python/
 theme:
   name: material
   features:
-    - navigation.tabs
     - navigation.sections
-    - toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+  logo: assets/logo.png
   language: en
   palette:
     - scheme: default
       toggle:
         icon: material/toggle-switch-off-outline 
-        name: Switch to dark mode
-      primary: teal
-      accent: purple 
+        name: Pasar a modo oscuro
+      primary: custom
+      accent: blue 
     - scheme: slate 
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode    
-      primary: teal
-      accent: lime
+      primary: custom
+      accent: blue
 
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
 
-copyright: |
-  &copy; 2023 <a href="https://github.com/james-willett"  target="_blank" rel="noopener">James Willett</a>
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Introducción y fundamentos: introduccion_fundamentos.md
+  - Flujos de control: flujos_control.md
+    
