@@ -1,0 +1,25 @@
+:root {
+    --md-primary-fg-color: #FF5065;
+    --md-primary-fg-color--light: #FF5065;
+    --md-primary-fg-color--dark: #FF5065;
+    --md-text-font: "GraphikRegular";
+    --md-code-font: "GraphikRegular";
+  
+  }
+
+@font-face {
+  font-family: "GraphikRegular";
+  src: ("docs/fonts/GraphikRegular.otf") format("opentype");
+}
+
+body {
+  font-family: "GraphikRegular", sans-serif;
+}
+
+/* h1 {
+  display: none;
+}
+
+.md-nav__title {
+  display: none;
+} */
